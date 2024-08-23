@@ -1,0 +1,17 @@
+[package]
+name = "fungible_asset"
+version = "1.0.0"
+authors = []
+
+[addresses]
+asset_owner="_"
+
+[dev-addresses]
+asset_owner="0x100"
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
